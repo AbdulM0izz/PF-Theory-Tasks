@@ -2,13 +2,17 @@
 using namespace  std;
 int main(){
 	//Veriable initialization
+	int dep;
+	int choice;
 	cout<<" Press 1 For School of Computer science : "<<endl;
 	 cout<<" Press 2 for School of Business: "<<endl;
 	  cout<<" Press 3 for School of Engineering: "<<endl;
-    int comp;
-    cin>>comp;
+  
+    cin>>choice;
+    
 
-    switch(comp){
+
+    switch(choice){
     	//Departments Informations With Numbers
 	
      case 1: cout<<" 1 Departament of Informatics "<<endl <<" 2 Department of Machine learning "<<endl;   

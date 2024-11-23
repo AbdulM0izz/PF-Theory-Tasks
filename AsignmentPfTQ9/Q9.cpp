@@ -27,10 +27,8 @@ int main(){
 	 }
     else{
     	cout<< " Present Salary 3000 "<<endl;
-	}
-
-
-
+	
+    }
 
     return 0;
 }
