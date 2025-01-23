@@ -1,23 +1,14 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-    int n = 5;
-    int i = n;
-    do {
-        int j = i;
-      do{
-        cout << j;
-        j--;
-    
-    }
-    }while (j >= 1){
-        cout << endl;
-        i--;
-    }while (i >= 1);
-
-
-
-
-    return 0;
+int main(){
+	int sum =0;
+	int arr[3]={15,10,12};
+	int result[3];
+	for (int i=0; i<3; i++){
+		result[i] = arr[i];
+		if (result[i]%2==0){
+			sum += result[i];
+		}
+	}
+	cout << sum << " ";
 }

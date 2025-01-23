@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int startingNum;
+int main()
+{
+
+   int startingNum;
     int endingNum;
     int product = 1;
 
@@ -25,7 +27,6 @@ int main(){
     }
     cout << product << endl;
 
-    
 
 
 
