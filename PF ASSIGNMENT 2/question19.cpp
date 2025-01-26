@@ -1,27 +1,27 @@
 #include <iostream>
+
 using namespace std;
-void table(){
-    int numbers [5];
-    cout << "Enter 5 Numbers To print their Tables: "<< endl;
-    for (int i=0; i<5; i++){
-        cin >> numbers[i];
+
+void table() {
+    int arr[5];
+
+    // Taking input from the user
+    cout << "Enter 5 integers: ";
+    for (int i = 0; i < 5; ++i) {
+        cin >> arr[i];
     }
 
-    cout <<"\Tables: \n";
-    for (int i=0; i<5; i++){
-        cout << "Table of "<<numbers[i] <<endl;
-        for (int j=1; j<=10; j++){
-            cout << numbers[i] << " * " <<j<< " " <<numbers[i]*j <<endl;
+    // Printing the multiplication table for each number
+    for (int i = 0; i < 5; ++i) {
+        cout << "Multiplication table for " << arr[i] << ":\n";
+        for (int j = 1; j <= 10; ++j) {
+            cout << arr[i] << " x " << j << " = " << arr[i] * j << endl;
         }
-        cout <<endl;
+        cout << endl;
     }
-
 }
 
-int main()
-{
+int main() {
     table();
-
-
     return 0;
 }
